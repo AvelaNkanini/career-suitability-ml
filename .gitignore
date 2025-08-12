@@ -1,4 +1,9 @@
+# Ignore virtual environment folder
+venv/
+
+#Ignore other common files and folders 
 __pycache__/
 *.pyc
-venv/
-^\.?v?env/?$
+*.pyo
+*.pyd
+env/
